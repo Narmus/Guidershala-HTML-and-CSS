@@ -14,5 +14,296 @@
 
     <title>Guidershala</title>
   </head>
-  <body></body>
+  <body>
+    <!-- A personal CV of the student -->
+    <header>
+      <h1>Guidershala</h1>
+    </header>
+    <div class="profile">
+      <img src="images/icon.jpeg" alt="" />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ipsa
+        impedit magnam, nobis nam quasi commodi exercitationem architecto neque
+        obcaecati ipsam odio. Deserunt aliquam pariatur facere veritatis libero
+        consectetur repudiandae voluptate adipisci. Accusamus vel officia omnis
+        porro obcaecati fugit modi recusandae nobis odio. Distinctio voluptatem
+        maiores repellat ut rem, quas laboriosam expedita aperiam molestiae,
+        rerum ad a repellendus minima delectus animi est. Ducimus ea quisquam
+        sint ipsa ab ad libero placeat totam, similique dicta vero alias,
+        aliquam facere reiciendis quis. Illo minus, alias delectus deserunt
+        porro cupiditate quasi eaque tempore explicabo odio eius dolores
+        perferendis maiores sint. Placeat aperiam incidunt culpa itaque magnam
+        excepturi, sed, quidem dolores facilis nulla pariatur exercitationem
+        illo quisquam enim amet possimus vel, voluptatum hic. Corporis, at.
+        Velit autem esse reprehenderit alias quas in, facere atque molestiae
+        delectus, doloremque aut doloribus saepe facilis accusamus. Consequatur
+        facere sint eius id cupiditate alias ipsam doloribus voluptatum
+        sapiente, modi consequuntur odio sit officiis officia facilis ab
+        voluptas fuga aliquam eos similique. Repudiandae minima, cum illo, iste
+        fugit eligendi accusantium, doloremque enim placeat possimus modi sunt
+        tempora itaque quam sint sed tempore ab. Fugit in magnam, quis aperiam
+        officia accusamus molestias, non similique provident, cupiditate ipsam.
+        Excepturi expedita eos totam?
+      </p>
+    </div>
+    <nav>
+      <a target="_blank" href="education.html">Education</a>
+      <a target="_blank" href="experience.html">Experience</a>
+      <a target="_blank" href="skills.html">Skills</a>
+    </nav>
+    <!-- Topics you have learned in the class -->
+    <div class="topics">
+      <header class="topics-header"><h2>Topics</h2></header>
+      <!-- First Topic - HTML -->
+      <h2 class="topic-name">HTML</h2>
+      <!-- Using a table to create a list of all the things learned in HTML -->
+      <ol>
+        <li>HTML - Hypertext Markup Language</li>
+        <li>used to give a STRUCTURE to the HTML Page/Document</li>
+        <li>
+          Inline and Block Elements :-
+          <table>
+            <tr>
+              <th>Inline</th>
+              <th>Block</th>
+            </tr>
+            <tr>
+              <td>Only Occupy width needed by content</td>
+              <td>Use entire width of screen or parent element.</td>
+            </tr>
+            <tr>
+              <td>Does not start in new line.</td>
+              <td>Always start in new line.</td>
+            </tr>
+            <tr>
+              <td>Can only have right and left margins.</td>
+              <td>Can have margin on all 4 sides.</td>
+            </tr>
+            <tr>
+              <td>Cannot set height and width.</td>
+              <td>Can set height and width.</td>
+            </tr>
+          </table>
+        </li>
+        <li>
+          <h4>Quotations and Citations</h4>
+          <div class="quotation-citation">
+            <ul>
+              <li>
+                <p>Job of blockquote</p>
+                <blockquote cite="">
+                  It indents the details inside. The tag must include a cite to
+                  show what site the detail was taken from.
+                </blockquote>
+              </li>
+              <li>
+                <p>
+                  The role of q tag is:
+                  <q>To quote the texts inside the q tag</q>
+                </p>
+              </li>
+              <li>
+                <p>
+                  The role of <abbr title="abbreviate">abbr</abbr> tag is to
+                  shorten/abbreviate the name. eg:
+                  <abbr title="World Health Organization">WHO</abbr> Place the
+                  mouse cursor on top of the world with ..... to see fullform
+                </p>
+              </li>
+              <li>
+                <p>The role of address quote :</p>
+                <address>
+                  Written by Someone.<br />
+                  Visit us at: Somewhere<br />
+                  Example.com<br />
+                </address>
+              </li>
+              <li>
+                <p>
+                  <cite>The cite tag</cite> used to cite works of art. Put this
+                  under some images or something.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The role of bdo tag is to reverse the text inside. Check
+                  below:
+                </p>
+                <bdo dir="rtl"
+                  >This text will be written from right to left</bdo
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="links">
+            <h4>Links</h4>
+            <p>Used to link external sites or links. uses "a" tag</p>
+            <a href="https://www.google.com/">Google</a>
+          </div>
+        </li>
+        <li>
+          <div class="iframes">
+            <h4>iframe</h4>
+            <p>
+              Iframe is used to open another brower window inside the current
+              browser. You can increase the dimensions.
+            </p>
+            <iframe src="skills.html" frameborder="0"></iframe>
+          </div>
+        </li>
+        <li>
+          <div class="forms">
+            <h4>Forms</h4>
+            <p>
+              Forms are used to collect User inputs. There are different kinds
+              of forms which each serve different purposes. More about forms in
+              <a href="https://www.w3schools.com/html/html_forms.asp"
+                >W3Schools</a
+              >
+            </p>
+            <form>
+              <label for="Name">Name</label>
+              <p><input type="text" /></p>
+
+              <textarea
+                name="textarea"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Add text"
+              ></textarea>
+              <input type="button" value="button" />
+              <br />
+              <br />
+              <div class="checkbox">
+                <label for="item1">item1</label>
+                <input type="checkbox" name="checkbox" id="" />
+                <label for="item1">item2</label>
+                <input type="checkbox" name="checkbox" id="" />
+              </div>
+              <br />
+              <div class="radial">
+                <label for="rad1">rad 1</label>
+                <input type="radio" name="rad1" id="" />
+                <label for="rad1">rad 1</label>
+                <input type="radio" name="rad1" id="" />
+                <label for="rad1">rad 1</label>
+                <input type="radio" name="rad1" id="" />
+              </div>
+              <button>Submit</button>
+              <button type="reset">Reset</button>
+            </form>
+          </div>
+        </li>
+      </ol>
+      <!-- Second Topic - CSS -->
+      <h2 class="topic-name">CSS</h2>
+      <ol>
+        <li>CSS - Cascading Style Sheets</li>
+        <li>Used to Design the HTML page/Document</li>
+        <li>
+          Box Model of CSS <br />
+          <div class="flex">
+            <img src="images/css-box-model.png" alt="Box Model Image" />
+            <ul>
+              <li>CSS contains 4 layers and is called a box model.</li>
+              <li>Content - where text and images appear.</li>
+              <li>
+                Padding – Area around content. Between content and border. Is
+                transparent.
+              </li>
+              <li>
+                Border – Goes around Padding and Content. Can be made visible
+                and styled.
+              </li>
+              <li>
+                Margin – Clears an area outside border. Puts distance between
+                two elements. Is transparent.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <p>
+            There are 3 different types of display in CSS. Inline, Block and
+            Inline-Block. They have the folloeing properties:
+          </p>
+          <table>
+            <tr>
+              <th>Inline</th>
+              <th>Block</th>
+              <th>Inline-block</th>
+            </tr>
+            <tr>
+              <td>display:inline</td>
+              <td>display:block</td>
+              <td>display:inline-block</td>
+            </tr>
+            <tr>
+              <td>Only Occupy width needed by content</td>
+              <td>Use entire width of screen or parent element.</td>
+              <td>They take up ONLY the space of the content.</td>
+            </tr>
+            <tr>
+              <td>Does not start in new line.</td>
+              <td>Always start in new line.</td>
+              <td>Does NOT take a new line.</td>
+            </tr>
+            <tr>
+              <td>Can only have right and left margins.</td>
+              <td>Can have margin on all 4 sides.</td>
+              <td>Can have margins on all sides</td>
+            </tr>
+            <tr>
+              <td>Cannot set height and width.</td>
+              <td>Can set height and width.</td>
+              <td>Can manually set the height and width.</td>
+            </tr>
+          </table>
+        </li>
+        <li>
+          Selectors
+          <p>
+            They are used to select different html elements. Following are the
+            selectors :
+          </p>
+          <ul>
+            <li>
+              Universal selector – Applies the style to the whole html document.
+              Represented by *{}
+            </li>
+            <li>
+              Element/Tag Selector – Selects an element by calling its tag. Any
+              style inside a tag selector is applied to ALL elements with that
+              tag. Eg: h1-h6, p, span, div and any html tags.
+            </li>
+            <li>
+              Class selector – Selects an element that has been provided a class
+              attribute. Multiple elements can have same class name. Eg: &lt;p
+              class=”paragraph”&gt;. Called by .paragraph{}
+            </li>
+            <li>
+              ID selector – Selects an element that has been provided a id
+              attribute. Only ONE element can have a unique ID name. Eg: &lt;p
+              id=”para”>. Called by #para{}.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Selector priority
+          <p>
+            When same elements have same property changed using different
+            selectors, the style will depend on the highest priority selector.
+          </p>
+          <p>
+            The priority are as follows : ID > Class > Element/Tag > Universal
+          </p>
+        </li>
+      </ol>
+    </div>
+
+    <footer>Contact me</footer>
+  </body>
 </html>

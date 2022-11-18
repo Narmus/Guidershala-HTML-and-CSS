@@ -1,0 +1,20 @@
+body {
+  background-color: #ece5c7;
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+th,
+td {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.flex {
+  padding: 100px;
+  justify-content: center;
+}

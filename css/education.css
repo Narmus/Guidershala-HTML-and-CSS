@@ -1,0 +1,11 @@
+* {
+  line-height: 50px;
+}
+
+body {
+  background-color: #ece5c7;
+}
+
+dl {
+  border: solid;
+}

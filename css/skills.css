@@ -1,0 +1,29 @@
+* {
+  line-height: 150%;
+}
+body {
+  text-align: center;
+}
+
+.flex {
+  justify-content: space-evenly;
+}
+
+.lists {
+  padding: 100px;
+}
+
+.per-skills {
+  padding: 50px;
+  border: solid blue;
+}
+
+.pro-skills {
+  padding: 50px;
+  border: solid brown;
+}
+
+li {
+  text-align: start;
+  border: 1px solid;
+}
