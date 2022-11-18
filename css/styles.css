@@ -89,3 +89,96 @@ td {
   text-align: center;
   text-decoration: underline;
 }
+
+/* Posion box properties */
+/* Posion box properties */
+/* Posion box properties */
+/* Posion box properties */
+/* Posion box properties */
+
+.outer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid blue;
+  height: 750px;
+  width: 750px;
+  margin: auto;
+}
+.middle-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid green;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+}
+.inner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid yellow;
+  height: 350px;
+  width: 350px;
+  margin: auto;
+}
+
+.outer-box {
+  position: relative;
+}
+
+.middle-box {
+}
+
+.inner-box {
+}
+
+.box {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  border: solid;
+}
+
+.static {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+}
+.relative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border-color: black;
+  color: white;
+  position: relative;
+}
+.absolute {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.fixed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
+.sticky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  position: sticky;
+  top: 0;
+}

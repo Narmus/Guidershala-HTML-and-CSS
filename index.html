@@ -140,7 +140,7 @@
           <div class="links">
             <h4>Links</h4>
             <p>Used to link external sites or links. uses "a" tag</p>
-            <a href="https://www.google.com/">Google</a>
+            <a href="https://www.w3schools.com/">W3Schools</a>
           </div>
         </li>
         <li>
@@ -299,6 +299,151 @@
           </p>
           <p>
             The priority are as follows : ID > Class > Element/Tag > Universal
+          </p>
+        </li>
+        <li>
+          Properties and Selectors
+          <p>
+            Inside a selector, the property and value for the property should be
+            declared for style to take effect.
+          </p>
+          Eg: div { <br />
+          height: 100px; <br />
+          width: 50%; <br />
+          background-color: powderblue;<br />
+          }
+          <p>
+            In the above example, the height, width and background-color are the
+            properties and 100px, 50% and powderblue are values.
+          </p>
+        </li>
+        <li>
+          Group and Attribute Selectors
+          <ul>
+            <li>
+              <p>
+                Group Selectors - You can apply same style to multiple selectors
+                buy chaining them using a comma. Eg: p, .paragraph, #para {any
+                styles inside this will be applied to all selectors p,
+                .paragraph and class which are separated by commas}
+              </p>
+            </li>
+            <li>
+              <p>
+                Attribute Selectors - Used to select element with a specific
+                attribute inside it:
+              </p>
+              <p>
+                Eg: &lt;a href="1">w3schools.com&lt;/a> <br />
+                &lt;a href="2" target="_blank">disney.com&lt;/a> <br />
+                &lt;a href="3" target="_top">wikipedia.org&lt;/a> <br />
+                a[target]{selects the &lt;a> elements that have target as an
+                attribute inside it}
+              </p>
+            </li>
+            <li>
+              You can assign a value to the attribute inside the attribute
+              selector. <br />
+              Eg: a[target=”_blank”]{selects the &lt;a> element that has target
+              with value equal to “_blank”}
+            </li>
+          </ul>
+        </li>
+        <li>
+          Pseudo-Class Selectors
+          <p>
+            Used to define a special state of an element. Eg: Mouse hover, style
+            visited and unvisited links, change style when focused, change
+            cursor style when hovering over an element etc.
+          </p>
+        </li>
+        <li>
+          Pseudo-Element Selectors
+          <p>
+            A CSS pseudo-element is used to style specified parts of an element.
+          </p>
+          <p>
+            For example, it can be used to: Style the first letter, or first
+            line, of an element Insert content before, or after, the content of
+            an element. <br />
+            Commonly used ones are ::first-line, ::first-letter etc
+          </p>
+        </li>
+        <li>
+          <h3>Position</h3>
+          <div class="outer-box">
+            <div class="middle-box">
+              <div class="inner-box">
+                <div class="box static">1)Static</div>
+                <div class="box relative">2)Relative</div>
+                <div class="box absolute">3)Absolute</div>
+                <div class="box fixed">4)Fixed</div>
+                <div class="box sticky">5)Sticky</div>
+              </div>
+            </div>
+          </div>
+          <p>
+            There are 5 different positions that can be applied to HTML elements
+          </p>
+          <ol>
+            <li>
+              Static - Default position of elements. position:static. We don't
+              have to explicitly write down the property.
+            </li>
+            <li>
+              Relative An element with position: relative; is positioned
+              relative to its normal position. <br />
+              What <strong> positioned relative</strong> means is that whenever
+              we apply top, right, bottom, left propeties to the element, it
+              will move from its original position.
+            </li>
+            <li>
+              Absolute - An element with position: absolute; is positioned
+              relative to the nearest positioned ancestor (instead of positioned
+              relative to the viewport, like fixed). <br />
+              What it means is that if the position:absolute element is NOT
+              inside another positioned element (usually positioned:relative),
+              it will apply top, right, bottom, left properties ir respect to
+              the whole view-port (visible area of the webpage) <br />
+              <strong>
+                In the above example, the blue box is the closest parent
+                container with position:relative property. So the absolute
+                positioned box is placed in relation to the blue box.</strong
+              >
+            </li>
+            <li>
+              Fixed - An element with position: fixed; is positioned relative to
+              the viewport, which means it always stays in the same place even
+              if the page is scrolled.
+            </li>
+            <li>
+              Sticky - An element with position: sticky; is positioned based on
+              the user's scroll position.
+            </li>
+          </ol>
+        </li>
+        <li>
+          Float
+          <p>
+            The Float property is used to float an element to the left or right
+            side. The next content will WRAP AROUND the float element.
+          </p>
+        </li>
+        <li>
+          Flex
+          <p>
+            The Flexible Box Layout Module, makes it easier to design flexible
+            responsive layout structure without using float or positioning.
+            <br />
+            It is applied in one-direction. Vertically or horizontally.
+            <br />
+            To apply flex we write the following property and value -
+            display:flex <br />
+            With flex property you can arrange all the elements inside the flext
+            box vertically or horizontally and model the gaps and space between
+            them. Flex box also allows it so that the elements inside will go to
+            new line or shring or grow equally as the page size is increased or
+            decreased.
           </p>
         </li>
       </ol>
